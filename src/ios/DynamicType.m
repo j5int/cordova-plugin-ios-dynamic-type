@@ -1,17 +1,17 @@
-/********* cordova-plugin-ios-dynamic-type.m Cordova Plugin Implementation *******/
+/********* DynamicType.m Cordova Plugin Implementation *******/
 
 #import <Cordova/CDV.h>
 
-@interface cordova-plugin-ios-dynamic-type : CDVPlugin {
+@interface DynamicType : CDVPlugin {
   // Member variables go here.
 }
 
-- (void)coolMethod:(CDVInvokedUrlCommand*)command;
+- (void)get:(CDVInvokedUrlCommand*)command;
 @end
 
-@implementation cordova-plugin-ios-dynamic-type
+@implementation DynamicType
 
-- (void)coolMethod:(CDVInvokedUrlCommand*)command
+- (void)get:(CDVInvokedUrlCommand*)command
 {
     CDVPluginResult* pluginResult = nil;
     NSString* echo = [command.arguments objectAtIndex:0];
