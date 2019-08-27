@@ -1,0 +1,25 @@
+{
+  "name": "cordova-plugin-ios-dynamic-type",
+  "version": "0.0.1",
+  "description": "Pass the iOS Dynamic Type text sizing value through to the js layer",
+  "cordova": {
+    "id": "cordova-plugin-ios-dynamic-type",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevehof/cordova-plugin-ios-dynamic-type.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Stephen Hofmeyr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevehof/cordova-plugin-ios-dynamic-type/issues"
+  },
+  "homepage": "https://github.com/stevehof/cordova-plugin-ios-dynamic-type#readme"
+}
