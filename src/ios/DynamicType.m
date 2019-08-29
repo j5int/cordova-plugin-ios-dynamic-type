@@ -2,26 +2,13 @@
 
 #import <Cordova/CDV.h>
 
-@interface DynamicType : CDVPlugin {
-  // Member variables go here.
-}
-
+@interface DynamicType : CDVPlugin
 - (void)get:(CDVInvokedUrlCommand*)command;
-// - (void)onContentSizeChange;
 @end
 
 @implementation DynamicType
 
-// - (void)onContentSizeChange
-// {
-//     printf("test");
-// }
-//
-// - (void)pluginInitialize
-// {
-//     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onContentSizeChange) name:UIContentSizeCategoryDidChangeNotification object:nil];
-//
-// }
+//TODO Add an observer to update the app when the preferredContentSizeCategory changes
 
 - (void)get:(CDVInvokedUrlCommand*)command
 {
