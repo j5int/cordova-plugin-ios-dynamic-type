@@ -1,3 +1,7 @@
+// DynamicType.js
+// Copyright 2019 j5 Software South Africa
+// Licensed under the MIT license.
+
 var exec = require('cordova/exec');
 
 exports.getDynamicType = function(success, error) {

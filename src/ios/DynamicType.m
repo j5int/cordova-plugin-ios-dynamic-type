@@ -1,4 +1,6 @@
-/********* DynamicType.m Cordova Plugin Implementation *******/
+// DynamicType.m
+// Copyright 2019 j5 Software South Africa
+// Licensed under the MIT license.
 
 #import <Cordova/CDV.h>
 
