@@ -17,7 +17,7 @@
     "cordova-ios"
   ],
   "author": "Stephen Hofmeyr",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/stevehof/cordova-plugin-ios-dynamic-type/issues"
   },
