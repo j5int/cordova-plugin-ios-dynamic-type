@@ -16,7 +16,7 @@
     "ecosystem:cordova",
     "cordova-ios"
   ],
-  "author": "Stephen Hofmeyr",
+  "author": "Hexagon AB and/or its subsidiaries and affiliates",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/stevehof/cordova-plugin-ios-dynamic-type/issues"
